@@ -49,11 +49,11 @@ const strToNum = () => {
   // * Boolean
   // * Null
   // * Undefined
-  // * Number
+  // * DONE Number
   // * NaN
-  // * String
+  // * DONE String
 
-  let a = 25 * '100f'
+  let a = 10 * 'hi'
 console.log('a is' + a)
   
   let b = true
@@ -94,7 +94,31 @@ console.log('c is' + c)
 // 6. go to `index.html` 
 // 7. create inputs, buttons and event listeners that render the code blocks you built above to the DOM.
 
+const booLean = () => {
 
+  let a = true
+
+  document.getElementById('booLean').innerHTML = typeof a
+}
+
+const nAn = () => {
+
+  let b = 25 * '100f'
+
+  document.getElementById('nAn').innerHTML = typeof b
+}
+const Undefined = () => {
+
+  let c;
+
+  document.getElementById('Undefined').innerHTML = typeof c
+}
+const Null = () => {
+
+  let d = null
+
+  document.getElementById('Null').innerHTML = typeof d
+}
 
 
 // Additional Resources
