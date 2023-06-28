@@ -16,9 +16,32 @@ const displayDate = () => {
 
 // Write a JavaScript program to convert a number to a string.
 
+const numToString = () => {
+
+  let x = 254
+
+  x = x.toString();
+
+  console.log('The typeof x is' + typeof x)
+
+  document.getElementById('numb-str').innerHTML = typeof x
+}
+
+
 
 
 // Write a JavaScript program to convert a string to the number.
+
+const strToNum = () => {
+
+  let y = '1250'
+
+  y = Number(y)
+
+  console.log('The typeof y is' + typeof y)
+
+  document.getElementById('str-numb').innerHTML = typeof y
+}
 
 
 
@@ -29,7 +52,20 @@ const displayDate = () => {
   // * Number
   // * NaN
   // * String
+
+  let a = 25 * '100f'
+console.log('a is' + a)
   
+  let b = true
+console.log('b is' + b)
+
+  let c;
+console.log('c is' + c)
+
+  let d = null
+  console.log('d is' + d)
+
+
 
   
 // Write a JavaScript program that adds 2 numbers together.
